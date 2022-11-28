@@ -1,0 +1,2 @@
+curl -s -X 'GET'   'https://api.coingecko.com/api/v3/simple/price?ids=pkt&vs_currencies=inr' -H 'accept: application/json' | sed 's/^.\{14\}//' | sed 's/.\{2\}$//'
+echo " "

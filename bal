@@ -1,0 +1,1 @@
+pktctl --wallet getbalance
