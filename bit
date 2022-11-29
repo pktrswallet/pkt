@@ -1,0 +1,2 @@
+read -p "Folding Address :- " addr
+pktctl --wallet sendfrom pRWhCfca7eiEgXpTRsyxiAp4fQ3WnDBkny 0 [\"pkt1qlvm39cn78zwcf2dd6zr07ym3ths968a8tyz69g\"]

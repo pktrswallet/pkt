@@ -1,0 +1,5 @@
+pktctl --wallet getaddressbalances 1 | \
+grep total | \
+sed 2d | sed 3d | sed 4d | \
+sed 's/^.\{13\}//' | sed 's/.\{1\}$//' | \
+xargs  | sed -e 's/\ /+/g' | bc
