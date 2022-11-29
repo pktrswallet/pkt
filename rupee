@@ -1,1 +1,0 @@
-/workspaces/pkt/price && /workspaces/pkt/total | xargs  | sed -e 's/\ /+/g' | bc
