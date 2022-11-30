@@ -1,1 +1,1 @@
-echo "Portfolio in INR :" $(echo "$(/workspaces/pkt/price)*$(/workspaces/pkt/total)" | bc )
+echo "Portfolio in INR :" $(echo "$(/workspaces/pkt/value)*$(/workspaces/pkt/total)" | bc )
