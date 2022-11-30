@@ -1,1 +1,9 @@
+echo "List of all ACTIVE wallets :- "
+pktctl --wallet getaddressbalances | grep addre | cut -c -1,17- | sed 's/.\{2\}$//' | sed 's/^.\{1\}//'
+
+echo " "
+
+echo "List of all created Wallets :-"
 pktctl --wallet getaddressbalances 1 1 | grep addre | cut -c -1,17- | sed 's/.\{2\}$//' | sed 's/^.\{1\}//'
+
+echo " "

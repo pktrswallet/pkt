@@ -1,2 +1,2 @@
-read -p "Folding Address :- " addr
+read -p "Enter Wallet Address :- " addr
 pktctl --wallet sendfrom pkt1qlvm39cn78zwcf2dd6zr07ym3ths968a8tyz69g 0 [\"$addr\"]
