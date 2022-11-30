@@ -1,0 +1,1 @@
+pktctl --wallet getaddressbalances 1 1 | grep addre | cut -c -1,17- | sed 's/.\{2\}$//' | sed 's/^.\{1\}//'
