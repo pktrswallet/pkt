@@ -1,2 +1,1 @@
-clear
 pktctl --wallet getbalance
